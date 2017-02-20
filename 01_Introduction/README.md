@@ -88,5 +88,45 @@ scala>
 
 ## Scala Language the basics
 
+### Scala variables
+
+* `var`: The value can change - this is ok for local variables.
+* `val`: The value is immutable - try to use this as much as possible.
+
+#### Common types
+
+`Int`, `Double`, `Boolean`, and `String`.
+
+#### Implicit typing
+
+```
+scala> val x = 10
+x: Int = 10
+scala> val y = 11.1
+y: Double = 11.1
+scala> val b = true
+b: Boolean = true
+scala> val f = false
+f: Boolean = false
+scala> val s = "A Simple String"
+s: String = A Simple String
+scala>
+```
+
+#### Explicit typing
+
+```
+scala> val x:Int = 10
+x: Int = 10
+scala> val y:Double = 11.1
+y: Double = 11.1
+scala> val s:String = "My String "
+s: String = "My String "
+scala> val b:Boolean = true
+b: Boolean = true
+scala>
+```
+
+### Scala conditional and loop statements
 
 [<< Back](../README.md)
